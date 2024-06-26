@@ -2,15 +2,15 @@
 
 {% block content %}
     <div class="home-div">
-        <img src="{{ url_for('static', filename='images/home.jpg') }}" class="home-img">
+        <img src="{{ url_for('static', filename='images/360_F_345973621_sMifpCogXNoIDjmXlbLwx1QZA5ZmQVl8.jpg') }}" class="home-img">
         <div class="info-div">
             {% if g.user %}
                 <h1>Welcome {{ g.user.username.capitalize() }}, </h1>
             {% else %}
                 <h1>Sign In, Guest </h1>
             {% endif %}
-            <h4> Explore the Test Preparation 
-                exclusively made for you!
+            <h4> Discover the Test Preparation 
+                tailored just for you!
             </h4>
             <a href="{{ url_for('question', id=1)}}">Take the test</a>
         </div>

@@ -26,7 +26,7 @@
   }
 
   .info-div h4 {
-    color: #fff;
+    color: blue;
     font-weight: 600;
     font-size: 18px;
     text-align: center;
@@ -34,7 +34,7 @@
   }
 
   .home-div a {
-    color: #fff;
+    color: blue;
     order: 2;
     font-size: 18px;
     margin-top: 30px;
